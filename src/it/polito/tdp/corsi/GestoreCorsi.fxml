@@ -41,7 +41,14 @@
                   </Button>
                </children>
             </HBox>
-            <HBox />
+            <HBox>
+               <children>
+                  <Label text="Corso" />
+                  <TextField fx:id="txtCorso" />
+                  <Button fx:id="btnStudentiCorso" mnemonicParsing="false" onAction="#doElencaStudenti" text="Elenca Studenti" />
+                  <Button fx:id="btnCDS" mnemonicParsing="false" onAction="#doCalcolaStatCDS" text="Statistiche CDS" />
+               </children>
+            </HBox>
          </children>
       </VBox>
    </top>
